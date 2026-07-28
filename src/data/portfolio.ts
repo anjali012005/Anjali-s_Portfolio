@@ -19,6 +19,17 @@ export const navItems = [
 export const projects: Project[] = [
   {
     number: "01",
+    name: "NotifyFlow",
+    icon: Bell,
+    headline: "Enterprise notification infrastructure. My deepest backend work.",
+    body:
+      "One event fanned out to email, SMS and push with at-least-once delivery. An API gateway, JWT + role-based access, UUID-keyed dedup and a retry-with-backoff dispatcher.",
+    stack: ["Java", "Spring Boot", "PostgreSQL", "Docker"],
+    metric: ">=1",
+    metricLabel: "delivery guarantee"
+  },
+  {
+    number: "02",
     name: "MockInter",
     icon: Mic2,
     headline: "AI interview practice that actually feels like the real thing.",
@@ -29,7 +40,7 @@ export const projects: Project[] = [
     metricLabel: "voice + feedback loop"
   },
   {
-    number: "02",
+    number: "03",
     name: "QuiGenie",
     icon: FileText,
     headline: "Turn any PDF into a quiz in one upload.",
@@ -39,17 +50,6 @@ export const projects: Project[] = [
     metric: "1 upload",
     metricLabel: "PDF to question bank"
   },
-  {
-    number: "03",
-    name: "NotifyFlow",
-    icon: Bell,
-    headline: "Enterprise notification infrastructure. My deepest backend work.",
-    body:
-      "One event fanned out to email, SMS and push with at-least-once delivery. An API gateway, JWT + role-based access, UUID-keyed dedup and a retry-with-backoff dispatcher.",
-    stack: ["Java", "Spring Boot", "PostgreSQL", "Docker"],
-    metric: ">=1",
-    metricLabel: "delivery guarantee"
-  }
 ];
 
 export const principles: TextPair[] = [
@@ -71,24 +71,31 @@ export const principles: TextPair[] = [
 ];
 
 export const timeline: TimelineItem[] = [
-  {
-    period: "2024 - Present",
+   {
+    period: "June 2026 - Present",
     role: "Software Engineer",
-    org: "HRMS platform",
+    org: "Bhivo, New Delhi, Delhi",
     body:
       "Building HR management software end-to-end with FastAPI, React and PostgreSQL. Production features used by real teams."
   },
   {
-    period: "2023 - 2024",
-    role: "Engineering Intern",
-    org: "Product teams",
+    period: "Jan 2026 - Apr 2026",
+    role: "Software Engineer",
+    org: "Morgan Soft Innovation, Gwalior, MP",
+    body:
+      "Building HR management software end-to-end with FastAPI, React and PostgreSQL. Production features used by real teams."
+  },
+  {
+    period: "Jan 2025 - Apr 2025",
+    role: "Software Engineer Intern",
+    org: "Technoscien, Noida, UP",
     body:
       "Shipped features on live software products and learned how real codebases behave under real users."
   },
   {
-    period: "Before 2023",
-    role: "Self-taught engineer",
-    org: "A Tier-3 college",
+    period: "Nov 2024 - Dec 2024",
+    role: "FullStack Developer Intern",
+    org: "Yashi IT Services, Indore, MP",
     body:
       "No pipeline, no shortcut. Everything learned by building projects and shipping them into the open."
   }
@@ -98,17 +105,23 @@ export const stackGroups = [
   {
     eyebrow: "// languages",
     title: "Languages",
-    items: ["Java", "Python", "TypeScript", "JavaScript"]
+    items: ["Java", "Python", "TypeScript", "JavaScript", "SQL", "C++"]
+  },
+  
+  {
+    eyebrow: "// backend",
+    title: "Backend",
+    items: ["Spring Boot", "FastAPI", "Hibernate", "Spring Data JPA", "REST APIs", "Swagger/OpenAPI"]
   },
   {
-    eyebrow: "// frameworks",
-    title: "Frameworks",
-    items: ["Spring Boot", "FastAPI", "React", "Next.js"]
+    eyebrow: "// frontend",
+    title: "Frontend",
+    items: ["React", "Next.js", "Tailwind CSS", "Redux Toolkit", "HTML5", "CSS3"]
   },
   {
     eyebrow: "// data & infra",
     title: "Data & infra",
-    items: ["PostgreSQL", "Redis", "Docker", "Git"]
+    items: ["PostgreSQL", "MongoDB", "Redis", "Docker", "AWS", "Git"]
   }
 ];
 

@@ -6,7 +6,7 @@ import anjaliPhoto from "../public/anjali.jpg";
 export function Hero() {
   return (
     <section id="top" className="bg-gradient-to-b from-tint/55 to-transparent">
-      <div className="mx-auto grid w-full max-w-6xl gap-10 px-5 py-12 sm:px-8 sm:py-14 lg:grid-cols-[1.35fr_0.65fr] lg:items-center lg:gap-12">
+      <div className="mx-auto grid w-full max-w-7xl gap-10 px-5 py-12 sm:px-8 sm:py-14 lg:grid-cols-[1.35fr_0.65fr] lg:items-center lg:gap-12">
         <div>
           <Reveal className="mb-6 flex flex-wrap gap-3">
             <span className="status-pill">
@@ -30,7 +30,7 @@ export function Hero() {
               onClick={() => scrollToSection("case-study")}
               className="inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3 text-sm font-medium text-paper transition hover:bg-accent"
             >
-              Read the case study
+              View NotifyFlow
               <ArrowDownRight className="h-4 w-4" />
             </button>
             <a

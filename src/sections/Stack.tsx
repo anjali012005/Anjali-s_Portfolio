@@ -5,7 +5,7 @@ import { Section } from "../components/ui/Section";
 export function Stack() {
   return (
     <Section id="stack" eyebrow="04 - The stack">
-      <Reveal className="grid overflow-hidden rounded-md border border-line bg-line md:grid-cols-3">
+      <Reveal className="grid overflow-hidden rounded-md border border-line bg-line md:grid-cols-4">
         {stackGroups.map((group) => (
           <div key={group.title} className="bg-paper p-6">
             <p className="font-mono text-xs text-accent">{group.eyebrow}</p>
