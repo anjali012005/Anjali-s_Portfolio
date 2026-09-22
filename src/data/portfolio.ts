@@ -176,7 +176,7 @@ export const journey = [
   },
   {
     stage: "Build",
-    title: "Projects over tutorials",
+    title: "Learning by building",
     body: "Learned by shipping. Every gap in knowledge became the next project."
   },
   {
@@ -187,24 +187,7 @@ export const journey = [
   {
     stage: "Now",
     title: "Software Engineer",
-    body: "Building microservices and infra-grade backends, and teaching it as I go."
-  }
-];
-
-export const publicLearning = [
-  {
-    title: "Why I started",
-    body: "To force myself to understand things well enough to explain them. Teaching is the harshest code review."
-  },
-  {
-    title: "Why I restarted",
-    body:
-      "The early videos were rough. Restarting meant admitting that publicly, then doing it better out loud."
-  },
-  {
-    title: "What it is now",
-    body:
-      "A running log of how I actually build: the mistakes, the refactors, the decisions. Not a course, a journal."
+    body: "Building microservices and infra-grade backends."
   }
 ];
 
@@ -218,6 +201,5 @@ export const proof = [
 export const profileLinks = [
   { label: "Email", value: "hello@anjali.dev", href: "mailto:hello@anjali.dev" },
   { label: "GitHub", value: "github.com/anjali", href: "https://github.com/anjali" },
-  { label: "LinkedIn", value: "in/anjali", href: "https://linkedin.com/in/anjali" },
-  { label: "YouTube", value: "@anjalibuilds", href: "https://youtube.com/@anjalibuilds" }
+  { label: "LinkedIn", value: "in/anjali", href: "https://linkedin.com/in/anjali" }
 ];

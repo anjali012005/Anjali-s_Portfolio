@@ -35,6 +35,7 @@ export function Hero() {
             </button>
             <a
               href="/resume.pdf"
+              download="Anjali_Daharwal_Resume.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-line px-5 py-3 text-sm text-ink transition hover:border-accent hover:text-accent"
             >
               Download resume

@@ -8,7 +8,6 @@ import { Hero } from "./sections/Hero";
 import { Journey } from "./sections/Journey";
 import { OtherWork } from "./sections/OtherWork";
 import { Proof } from "./sections/Proof";
-import { PublicLearning } from "./sections/PublicLearning";
 import { References } from "./sections/References";
 import { Stack } from "./sections/Stack";
 import { Thinking } from "./sections/Thinking";
@@ -23,14 +22,13 @@ export function App() {
       <Header theme={theme} onToggleTheme={() => setTheme((current) => (current === "dark" ? "light" : "dark"))} />
       <main>
         <Hero />
+        <Experience />
         <Work />
         <Thinking />
-        <Experience />
         <Stack />
         <CaseStudy />
         <OtherWork />
         <Journey />
-        <PublicLearning />
         <Proof />
         <References />
         <Contact />
