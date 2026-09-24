@@ -24,7 +24,7 @@ export const projects: Project[] = [
     headline: "Enterprise notification infrastructure. My deepest backend work.",
     body:
       "One event fanned out to email, SMS and push with at-least-once delivery. An API gateway, JWT + role-based access, UUID-keyed dedup and a retry-with-backoff dispatcher.",
-    stack: ["Java", "Spring Boot", "PostgreSQL", "Docker"],
+    stack: ["Java", "Spring Boot", "PostgreSQL", "Rabbit MQ", "Docker"],
     metric: ">=1",
     metricLabel: "delivery guarantee"
   },
